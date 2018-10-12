@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron{
+    height: 300px;;
+}
+
+.homeimg{
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/skyline.jpg") no-repeat right;
+}
+
+.aboutimg{
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/cockatoo.jpg") no-repeat top right;
+   }
+
+   .codeimg{
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/code.JPG") repeat top;
+   }
+
+   .musicimg{
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/organ.jpg") repeat top right;
+   }
+
+   .writingimg{
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/typewriter.jpg") no-repeat bottom left;
+   }
+
+   .contactimg{
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/centralpark.jpg") repeat top right;
+   }

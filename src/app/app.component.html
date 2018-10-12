@@ -1,21 +1,76 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="container-fluid bg-dark text-white sticky-top m-0 d-inline-block" style="height: 25px;">
+    <div class="float-left">
+        <h6 class="bg-dark">Nate Perkins</h6>
+    </div>
+    <div class="float-right">
+        <a class="mx-1" href="#"><i class="fab fa-facebook" style="color: lightgrey;"></i></a>
+        <a class="mx-1" href="#"><i class="fab fa-instagram" style="color: lightgrey;"></i></a>
+        <a class="mx-1" href="#"><i class="fab fa-twitter-square" style="color: lightgrey;"></i></a>
+        <a class="mx-1" href="#"><i class="fab fa-github-square" style="color: lightgrey;"></i></a>
+    </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
-<router-outlet></router-outlet>
+    <div class="content m-0">
+            <router-outlet></router-outlet>
+    </div>
+
+
+
+<footer class="page-footer font-small bg-dark">
+
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="text-white">NatePerkinsMakesThings<small>.com</small></h5>
+                <p class="text-secondary m-4">Want to get a hold of me?  Want to view my social media?  You're in the right place!  
+                    For more detailed contact information click the "Contact" tab in the navbar.</p>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-6 mb-md-0 mb-3">
+              <h5 class="text-uppercase text-white">Social Media</h5>
+              <ul class="list-unstyled">
+                    <li>
+                        <a href="#" class=" text-secondary"> 
+                           <i class="fab fa-facebook-square"></i>
+                           <small class="pl-1">My Facebook Page</small>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" text-secondary"> 
+                            <i class="fab fa-instagram"></i>
+                            <small class="pl-1">My Instagram Page</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" text-secondary"> 
+                            <i class="fab fa-twitter-square"></i>
+                            <small class="pl-1">My Twitter Page</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" text-secondary"> 
+                            <i class="fab fa-github-square"></i>
+                            <small class="pl-1">My Github Page</small>
+                        </a>
+                    </li>
+                    <br>
+                    <h5 class="text-uppercase text-white">Contact</h5>
+                    <li>
+                        <h6 class="text-secondary">
+                            <i class="fas fa-at"></i>
+                            <small class="pl-1">nsperk@gmail.com</small>
+                        </h6>
+                    </li><li>
+                        <h6 class="text-secondary">
+                            <i class="fas fa-mobile"></i>
+                            <small class="pl-1">513-262-6710</small>
+                        </h6>
+                    </li>
+
+            </ul>
+        </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center text-secondary py-3"><small>Nate Perkins 2018 - - New York, New York</small>
+  </div>
+</footer>
