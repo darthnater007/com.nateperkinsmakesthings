@@ -87,3 +87,7 @@ body{
         margin-left: 2%;
         text-decoration: underline;
    }
+
+   .big{
+       font-size: 200%;
+   }
