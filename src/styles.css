@@ -8,11 +8,11 @@
 }
 
 .homeimg{
-    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/skyline.jpg") no-repeat right;
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/skyline.jpg") repeat right;
 }
 
 .aboutimg{
-    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/cockatoo.jpg") no-repeat top right;
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/cockatoo.jpg") repeat top right;
    }
 
    .codeimg{
@@ -24,9 +24,43 @@
    }
 
    .writingimg{
-    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/typewriter.jpg") no-repeat bottom left;
+    background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/typewriter.jpg") repeat bottom left;
    }
 
    .contactimg{
     background: linear-gradient(to left,transparent, #29A0B5, #29A0B5),url("assets/centralpark.jpg") repeat top right;
+   }
+
+   .content-box{
+       background-color: lightgrey;
+       height: 100%;
+       border: 1px solid black;
+   }
+
+   .head1{
+    background: linear-gradient(to left,transparent, #29A0B5), url("assets/design-1.jpg");
+    color: white;
+    height: 80px;;
+   }
+
+   .head2{
+    background: linear-gradient(to left,transparent, #29A0B5),url("assets/design-2.jpg") repeat top right;
+    color: white;
+    height:  80px;
+   }
+
+   .head3{
+    background: linear-gradient(to left,transparent, #29A0B5),url("assets/design-3.jpg") repeat top right;
+    color: white;
+    height:  80px;
+   }
+
+   .head4{
+    background: linear-gradient(to left,transparent, #29A0B5),url("assets/design-4.jpg") repeat top right;
+    color: white;
+    height:  80px;
+   }
+
+   .dropCap{
+       font-size: 150%;
    }
