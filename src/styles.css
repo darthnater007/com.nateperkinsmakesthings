@@ -4,13 +4,18 @@
 }
 
 body{
-    background-color:lightgray;
+    background-color:white;
+}
+
+footer{
+box-shadow: -8px -8px -2px black;
 }
 
 .jumbotron{
     height: 300px;
     color: white;
     border-radius: 0;
+    margin: 0;
 }
 
 .jumbotron>h1{
@@ -48,10 +53,15 @@ body{
    }
 
    .head{
+    font-size: 4.5vw;
     color: white;
     box-shadow: 2px 2px 2px black;
     text-shadow:  2px 2px 2px grey;
     padding: 60px;
+   }
+
+   .head h3{
+       margin: 5%;
    }
 
 
@@ -90,4 +100,28 @@ body{
 
    .big{
        font-size: 200%;
+   }
+
+   .audioBox{
+       border: 1px solid black;
+       box-shadow: 2px 2px 2px black;
+       margin: 3%;
+   }
+
+   .centerPlayer{
+       position: relative;
+       left: 50%;
+       transform: translateX(-50%);
+   }
+   
+   audio{
+    width: 85%;
+   }
+
+   .c-height{
+       height: 550px;
+   }
+
+   .c-height p{
+       font-size: .75em;
    }
